@@ -1,0 +1,20 @@
+.md-ellipsis {
+  display: none;
+}
+
+.md-nav__title {
+  display: none;
+}
+
+.md-footer {
+  display: none;
+}
+
+.md-header--shadow {
+  box-shadow: none !important;
+}
+
+[data-md-color-scheme="default"] {
+  --md-default-fg-color--light: black;
+  --md-default-bg-color: white;
+}

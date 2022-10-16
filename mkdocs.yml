@@ -1,0 +1,31 @@
+site_name: FASTLEARN
+
+theme:
+  name: material
+  language: zh
+  logo: img/fastlearn.svg
+  palette:
+    primary: white
+  font: false
+  features:
+    - navigation.instant
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      auto_title: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search:
+      lang:
+        - en
+        - ja
+
+extra:
+  generator: false
+
+extra_css:
+  - extra/css/dontdisplay.css
